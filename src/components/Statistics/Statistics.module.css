@@ -8,5 +8,6 @@ li {
 .item{
     display: flex;
     justify-content: space-between;
-    text-decoration: underline;
+    margin-bottom: 10px;
+    
 }
