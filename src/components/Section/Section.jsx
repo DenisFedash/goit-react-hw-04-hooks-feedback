@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import css from '../Section/Section.module.css'
+import { Container, Title } from './Section.styled';
 
 
 export const Section = ({ title, children }) => (
-    <section className={css.container}>
-        <h2 className={css.title}>{title}</h2>
+    <Container>
+        <Title>{title}</Title>
         {children}
-    </section>
+    </Container>
 );
 
 Section.propTypes = {
