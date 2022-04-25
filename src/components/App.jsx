@@ -44,7 +44,7 @@ export default function APP() {
       </Section>
 
       <Section title="Statistics">
-        {countTotalFeedback ? (
+        {countTotalFeedback() ? (
           <Statistics
             good={good}
             neutral={neutral}
